@@ -1,6 +1,6 @@
-#include "exercise/frequencyDigitCheck.c"
+#include "exercise/reverseNumber.c"
 
 int main() {
-    frequencyDigitCheck(55332);
+    reverseNumber(23);
     return 0;
 }
