@@ -1,6 +1,6 @@
-#include "exercise/firstAndLastDigitSum.c"
+#include "exercise/factorialSeriesSum.c"
 
 int main() {
-    firstAndLastDigitSum(354);
+    sumSeries(3);
     return 0;
 }
