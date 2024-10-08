@@ -1,6 +1,6 @@
-#include "exercise/reverseNumber.c"
+#include "exercise/reverseOrderFormat.c"
 
 int main() {
-    reverseNumber(23);
+    reverseOrderFormat(3);
     return 0;
 }
