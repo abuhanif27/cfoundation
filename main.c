@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include "exercise/firstAndLastDigitSum.c"
 
-int main(void)
-{
-    printf("Hello, World!\n");
+int main() {
+    firstAndLastDigitSum(354);
     return 0;
 }
