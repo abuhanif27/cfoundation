@@ -1,6 +1,6 @@
-#include "exercise/factorialSeriesSum.c"
+#include "exercise/frequencyDigitCheck.c"
 
 int main() {
-    sumSeries(3);
+    frequencyDigitCheck(55332);
     return 0;
 }
