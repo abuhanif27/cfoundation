@@ -1,6 +1,6 @@
-#include "exercise/reverseOrderFormat.c"
+#include "exercise/pascalTriangle.c"
 
 int main() {
-    reverseOrderFormat(3);
+    printPascalTriangle(5);
     return 0;
 }
