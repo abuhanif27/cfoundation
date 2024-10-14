@@ -1,13 +1,10 @@
-#include "exercise/basic_statistics.c"
+#include "exercise/decimalToBinary.c"
 
 int main() {
-    int size;
-    printf("Enter size of array: ");
-    scanf("%d", &size);
-    int array[size];
-    for (int i = 0; i < size; i++) {
-        scanf("%d", &array[i]);
-    }
-    staticWizard(array, size);
+    int decimal;
+    printf("Enter a decimal number: ");
+    scanf("%d", &decimal);
+
+    decimalToBinary(decimal);
     return 0;
 }
