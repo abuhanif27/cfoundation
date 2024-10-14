@@ -1,6 +1,6 @@
-#include "exercise/arrayFrequency.c"
+#include "exercise/transposeMatrix.c"
 
 int main() {
-    runArrayFrequencyTest();
+    transposeMatrixTest();
     return 0;
 }
