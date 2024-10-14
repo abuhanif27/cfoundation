@@ -1,10 +1,6 @@
-#include "exercise/decimalToBinary.c"
+#include "exercise/arrayFrequency.c"
 
 int main() {
-    int decimal;
-    printf("Enter a decimal number: ");
-    scanf("%d", &decimal);
-
-    decimalToBinary(decimal);
+    runArrayFrequencyTest();
     return 0;
 }
